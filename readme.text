@@ -1,0 +1,3 @@
+这是用 reactjs+webpack+nodejs(npm)+less+es6 模仿的易企秀这款APP，通过webpack-dev-server搭建了一个本地服务，当让也可以用nodejs  的express框架或（koa）,
+
+另外在这之间 ，主要用到了 reactjs 的点击添加不同的样式类（借助于state），父子组件的信息传递，props循环，数据的请求（get/post）,表单，生命周期函数，事件绑定，获取真实dom节点内容(ref),等，从而对reactjs 有了更深一步的理解。

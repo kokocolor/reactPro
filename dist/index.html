@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	 
+	 
+	 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	 <script src="./dist/public/swiper.min.js"></script>
+	 
+	<script src="./dist/public/flexible.js"></script>
+	 <link href="./dist/public/swiper-3.4.2.min.css" rel="stylesheet">
+	 
+	 
+	<title>react</title>
+</head>
+
+<body>
+	<div id="box">
+		网报移动端（故乡）
+	</div>
+	<script>
+	window.onload=function(){
+
+
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+
+    var swiper = new Swiper('.swiper-container1', {
+       	pagination: '.swiper-pagination',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 15
+    });
+    }
+    </script>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
